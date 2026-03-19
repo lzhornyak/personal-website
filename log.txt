@@ -182,3 +182,10 @@
   occupation — PhD research at GRASP Lab — has no entry. Every academic CV lists this.
 - Fix: Added "Graduate Research Assistant" as a Research category at the top of
   Experience, with advisor, lab, and summary of research output.
+
+2026-03-19 — Review #30: Contact section is mostly redundant
+- Email appeared 3 times (hero, contact, footer). GRASP Lab/UPenn appeared 4 times
+  (hero, experience, contact, footer). Only unique info was "Philadelphia, PA".
+  Feels padded to an employer scrolling through.
+- Fix: Simplified contact section to a single sentence with the email link. Moved
+  location to footer and added GRASP Lab link there. Removed redundant grid.
