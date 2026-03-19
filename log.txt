@@ -221,3 +221,9 @@
   PageSpeed would flag this as the dominant performance issue.
 - Fix: Resized to 400x480 (2x for retina) at JPEG quality 80. Result: 31 KB —
   a 99% file size reduction with no visible quality loss at display size.
+
+2026-03-19 — Review #36: No canonical URL tag hurts search ranking
+- Without <link rel="canonical">, search engines may index the page at multiple URLs
+  (trailing slash vs not, index.html vs bare path), diluting ranking authority.
+  When an employer Googles the candidate's name, the page competes with itself.
+- Fix: Added canonical URL pointing to the definitive page URL.
