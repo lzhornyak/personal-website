@@ -389,3 +389,10 @@
 - Fix: Replaced #444 with var(--color-text-secondary) so experience descriptions
   adapt to dark mode. Audited all remaining hardcoded colors — the rest are either
   white-on-accent (fine in both modes) or print-only styles.
+
+2026-03-19 — Review #60: Research keyword highlights are semantically empty
+- "dynamical systems", "robotics", "machine learning" used <span class="highlight">
+  — visually styled but invisible to screen readers and search engines. These are the
+  candidate's core competencies and should carry semantic weight.
+- Fix: Changed to <strong class="highlight"> so screen readers announce emphasis
+  and search engines treat them as keyword signals.
