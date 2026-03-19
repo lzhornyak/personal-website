@@ -355,3 +355,9 @@
   tabbing through the page may not see where focus is — a WCAG 2.4.7 failure.
 - Fix: Added a global :focus-visible rule with a 2px accent-colored outline and
   offset. Uses :focus-visible (not :focus) so mouse users don't see outlines.
+
+2026-03-19 — Review #55: Decorative SVG icons missing aria-hidden
+- Research card SVG icons had no aria-hidden="true". Screen readers may announce
+  SVG elements or path data as content, adding noise for visually impaired users.
+  The adjacent h3 headings already convey the meaning.
+- Fix: Added aria-hidden="true" to all three research card SVGs.
