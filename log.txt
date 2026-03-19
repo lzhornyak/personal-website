@@ -421,3 +421,11 @@
 - Fix: Expanded "AP" to "Average Precision (AP)" with context ("the standard
   evaluation metric"), replaced "F1 improvement" with "better detection accuracy",
   and simplified the metrics to be meaningful without CV expertise.
+
+2026-03-19 — Review #64: Build artifacts (node_modules) left in working directory
+- Installing sharp for image processing left node_modules/, package.json, and
+  package-lock.json as untracked files. No .gitignore existed, so these could
+  easily get committed by accident — adding 5MB+ of npm dependencies to the repo
+  and potentially being served by Jekyll on the live site.
+- Fix: Added .gitignore to exclude node_modules/, package.json, and
+  package-lock.json from the repository.
