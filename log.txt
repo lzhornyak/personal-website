@@ -334,3 +334,10 @@
   variables but hardcoded hex values don't adapt.
 - Fix: Replaced with CSS variable fallback (--color-accent-hover) and added a
   lighter hover value (#8aa4ff) in the dark mode override.
+
+2026-03-19 — Review #52: No custom 404 page
+- Mistyped URLs or stale links show GitHub's default 404 with generic branding.
+  An employer landing there sees no connection to the candidate, breaking the
+  professional impression.
+- Fix: Added a branded 404.html using the site's stylesheet, fonts, and favicon,
+  with a clear message and link back to the homepage.
