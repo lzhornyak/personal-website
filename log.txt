@@ -93,3 +93,9 @@
   computer and information science") repeats the subtitle and affiliation line
   directly above it. Three consecutive lines saying the same thing.
 - Fix: Removed the redundant opener so the bio leads with research interests.
+
+2026-03-19 — Review #17: Chaos paper "PDF" link is misleading
+- The Chaos (bifurcation) paper had both a "DOI" and "PDF" button, but both pointed
+  to the same DOI URL. Clicking "PDF" didn't give a PDF — it gave the same publisher
+  landing page. Misleading to an employer expecting a direct download.
+- Fix: Removed the fake PDF link. Only DOI remains (no open-access PDF available).
