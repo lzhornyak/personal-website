@@ -43,3 +43,9 @@
   - Dynamical Systems: "as few as 30 noisy trajectories" (from Chaos paper)
   - Computer Vision: "2x F1 improvement, 33x duplicate reduction, 6x faster" (from CVPR paper)
   - Robotics: "conform to biological observations of feline species" (from Robotica paper)
+
+2026-03-19 — Review #8: Publications only link to DOI, no direct PDF access
+- Each publication has only a DOI link, which often lands on a paywall or publisher page.
+- Employers and academics expect one-click access to the actual paper.
+- Fix: Added PDF links where available (arXiv PDF for CVPR paper, DOI for Chaos paper).
+  The Robotica paper has no open-access preprint so only DOI remains.
