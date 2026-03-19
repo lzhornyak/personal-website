@@ -87,3 +87,9 @@
   violating WCAG 2.1 AA accessibility standards.
 - Fix: Added a "Skip to main content" link that is visually hidden until focused,
   then appears centered at the top of the page.
+
+2026-03-19 — Review #16: Redundant opening sentence in hero bio
+- First bio sentence ("I am a PhD student at the University of Pennsylvania studying
+  computer and information science") repeats the subtitle and affiliation line
+  directly above it. Three consecutive lines saying the same thing.
+- Fix: Removed the redundant opener so the bio leads with research interests.
