@@ -313,3 +313,9 @@
   researcher to hiring committees who read this distinction carefully.
 - Fix: Changed all 4 occurrences (title, OG tag, JSON-LD, subtitle) to
   "PhD Candidate". Owner should revert if quals haven't been passed.
+
+2026-03-19 — Review #49: Meta and OG descriptions still say "PhD student"
+- Review #48 changed the visible title and subtitle to "PhD Candidate" but missed
+  the meta description and og:description, which still said "PhD student". An
+  employer seeing "Candidate" on the page but "student" in a link preview notices.
+- Fix: Updated both meta description and og:description to "PhD candidate".
