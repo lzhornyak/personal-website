@@ -548,3 +548,11 @@
   technologies; a comma-separated list makes them work harder.
 - Fix: Styled each tool as an individual pill tag (matching pub-links style) with
   accent-light background. Each technology is now instantly scannable.
+
+2026-03-19 — Review #81: Hero photo has no visual depth in light mode
+- The photo floats next to the hero text with no shadow or frame — just a rounded
+  rectangle. Compared to research cards (border + hover shadow) and pub-year chips
+  (background fill), the photo feels visually flat and unanchored.
+- Fix: Added a subtle box-shadow (0 4px 20px rgba(0,0,0,0.1)) to the hero photo.
+  Dark mode already had a border from an earlier review; this complements it in
+  light mode.
