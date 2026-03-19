@@ -28,3 +28,10 @@
 - CV linked as "RenderCV_EngineeringResumes_Theme(1).pdf" — looks like an unrenamed
   template download. Signals the site wasn't proofread before launch.
 - Fix: Renamed to "Zhornyak_CV.pdf" and updated the link in index.html.
+
+2026-03-19 — Review #6: Missing meta description and bare footer
+- No <meta name="description"> tag — link previews on Slack/Twitter/LinkedIn show nothing
+  useful, and search engines have no summary to index.
+- Footer is just "© 2026 Lyra Zhornyak" — looks unfinished compared to peer sites.
+- Fix: Added meta description with name/affiliation/research areas. Enriched footer
+  with university and email contact.
