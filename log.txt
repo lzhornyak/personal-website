@@ -201,3 +201,9 @@
   .contact-item, .contact-label, and their responsive overrides remained — dead code.
   A tech employer viewing source sees unused styles suggesting sloppy maintenance.
 - Fix: Removed all orphaned contact CSS rules (~27 lines).
+
+2026-03-19 — Review #33: Nav name link uses href="#" instead of proper anchor
+- Clicking "Lyra Zhornyak" in the nav appends a bare "#" to the URL bar, which
+  looks broken. It also behaves inconsistently with every other nav link that
+  uses proper #section anchors with smooth scrolling.
+- Fix: Changed href="#" to href="#about" for consistent behavior.
