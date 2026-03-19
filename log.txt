@@ -195,3 +195,9 @@
   Academic employers expect a dissertation title (or working title) for a late-stage PhD.
 - Fix: Added a working dissertation title inferred from the published research.
   Owner should update with the actual title.
+
+2026-03-19 — Review #32: Orphaned CSS from contact section simplification
+- After removing the contact grid in Review #30, the CSS rules for .contact-grid,
+  .contact-item, .contact-label, and their responsive overrides remained — dead code.
+  A tech employer viewing source sees unused styles suggesting sloppy maintenance.
+- Fix: Removed all orphaned contact CSS rules (~27 lines).

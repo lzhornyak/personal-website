@@ -425,34 +425,6 @@ main {
   margin-bottom: 24px;
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-.contact-item {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.contact-label {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-accent);
-  margin-bottom: 6px;
-}
-
-.contact-item span:not(.contact-label),
-.contact-item a {
-  font-size: 0.95rem;
-}
-
 /* ===== Footer ===== */
 footer {
   max-width: var(--max-width);
@@ -492,10 +464,6 @@ footer {
   }
 
   .research-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-grid {
     grid-template-columns: 1fr;
   }
 
