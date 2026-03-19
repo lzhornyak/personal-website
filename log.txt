@@ -524,3 +524,11 @@
   quality or reproducibility can't find it. Linking code to papers is increasingly
   expected in ML research.
 - Fix: Added a "Code" pill link to the bifurcs repo on the Chaos publication entry.
+
+2026-03-19 — Review #78: Experience category headers lack visual weight
+- "Research", "Industry", "Teaching & Service", "Awards" are tiny uppercase labels
+  at 0.85rem with no visual anchor. They organize the largest section on the page
+  but look like footnotes — the eye skips over them when scanning.
+- Fix: Added a 3px left border accent in the accent color with padding, creating
+  a visual marker that matches the h2 underline accent pattern. Adds rhythm to the
+  Experience section without being heavy.

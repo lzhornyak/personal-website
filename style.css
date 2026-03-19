@@ -402,6 +402,8 @@ main {
   letter-spacing: 0.06em;
   color: var(--color-accent);
   margin-bottom: 18px;
+  padding-left: 12px;
+  border-left: 3px solid var(--color-accent);
 }
 
 .exp-item {
