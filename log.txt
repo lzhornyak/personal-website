@@ -368,3 +368,10 @@
   history, including AI-assisted development notes.
 - Fix: Added _config.yml with exclude directive so Jekyll doesn't serve log.txt
   (or CLAUDE.md) on the deployed site. Files remain in the repo but won't be public.
+
+2026-03-19 — Review #57: Unnecessary font weight loaded from Google Fonts
+- Source Serif 4 weight 400 is included in the Google Fonts URL but never used in
+  the CSS — both serif usages (h1, h2) are weight 600. The unused weight adds to
+  the font CSS download size.
+- Fix: Removed weight 400 from the Source Serif 4 font request in both index.html
+  and 404.html. Only weight 600 is now loaded.
