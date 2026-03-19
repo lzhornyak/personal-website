@@ -234,3 +234,11 @@
   entirely on unstructured HTML for search engine understanding.
 - Fix: Added a Person schema with name, title, affiliation, alumni, image, and
   sameAs links to Google Scholar and GitHub.
+
+2026-03-19 — Review #38: No robots.txt or sitemap.xml
+- Search engines rely on crawling alone to discover and index the page. Without a
+  sitemap, there's no explicit signal of the canonical page URL and last-modified
+  date. Without robots.txt, crawlers have no confirmation the site is public.
+- Fix: Added sitemap.xml with the page URL and last-modified date, and robots.txt
+  that allows all crawlers and points to the sitemap. Completes the SEO setup
+  alongside canonical URL, OG tags, and JSON-LD from prior reviews.
