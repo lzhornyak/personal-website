@@ -422,7 +422,7 @@ main {
 
 .exp-details > p:last-child {
   font-size: 0.9rem;
-  color: #444;
+  color: var(--color-text-secondary);
 }
 
 /* ===== Contact ===== */

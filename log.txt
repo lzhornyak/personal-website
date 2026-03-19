@@ -382,3 +382,10 @@
   invisible. Cards lift on hover but show no depth, making the effect look broken.
 - Fix: Added dark mode override with the dark-mode accent color at higher opacity
   (rgba(107, 138, 255, 0.2)) so the shadow is visible against dark backgrounds.
+
+2026-03-19 — Review #59: More hardcoded colors breaking dark mode
+- .bio used #333 (fixed in hotfix) and .exp-details > p:last-child used #444 —
+  both hardcoded dark greys that are nearly unreadable on dark backgrounds.
+- Fix: Replaced #444 with var(--color-text-secondary) so experience descriptions
+  adapt to dark mode. Audited all remaining hardcoded colors — the rest are either
+  white-on-accent (fine in both modes) or print-only styles.
