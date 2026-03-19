@@ -257,3 +257,10 @@
   Accessibility audits flag this as an incomplete landmark structure.
 - Fix: Wrapped nav in <header> and added aria-label="Main" to the nav. Moved
   fixed positioning from nav to header in CSS. Updated print stylesheet.
+
+2026-03-19 — Review #41: Second hero bio paragraph restates the first
+- Two bio paragraphs said essentially the same thing: the first with specifics
+  (bifurcation analysis, gait optimization), the second as a vague restatement
+  ("data-driven methods bridging theory and applications"). Reads as padding.
+- Fix: Merged into a single tighter paragraph, incorporating "data-driven methods"
+  into the specific description. Removes redundancy, sharpens the hero.
