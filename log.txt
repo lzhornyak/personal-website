@@ -327,3 +327,10 @@
 - Fix: Added prefers-color-scheme: dark media query overriding all color variables.
   Updated header background for dark mode. Added dark theme-color meta tag.
   Accent colors lightened slightly for contrast on dark backgrounds.
+
+2026-03-19 — Review #51: Hardcoded button hover color doesn't adapt to dark mode
+- The Email button hover used hardcoded #3451d1 (a darker blue), which is nearly
+  invisible against the dark mode background (#121220). Dark mode overrides CSS
+  variables but hardcoded hex values don't adapt.
+- Fix: Replaced with CSS variable fallback (--color-accent-hover) and added a
+  lighter hover value (#8aa4ff) in the dark mode override.

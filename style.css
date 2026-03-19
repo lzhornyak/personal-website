@@ -209,7 +209,7 @@ main {
 }
 
 .btn:not(.btn-outline):hover {
-  background: #3451d1;
+  background: var(--color-accent-hover, #3451d1);
   color: #fff;
 }
 
@@ -518,6 +518,7 @@ footer {
     --color-accent-light: #1e2244;
     --color-accent-warm: #ff4da6;
     --color-border: #2a2a3e;
+    --color-accent-hover: #8aa4ff;
   }
 
   header {
