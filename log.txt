@@ -49,3 +49,8 @@
 - Employers and academics expect one-click access to the actual paper.
 - Fix: Added PDF links where available (arXiv PDF for CVPR paper, DOI for Chaos paper).
   The Robotica paper has no open-access preprint so only DOI remains.
+
+2026-03-19 — Review #9: No Open Graph tags for social sharing
+- Sharing the site on LinkedIn, Slack, or Twitter shows a bare link with no preview image,
+  title, or description. Looks unfinished when circulated by a recruiter.
+- Fix: Added og:title, og:description, og:image, og:url, og:type, and twitter:card meta tags.
