@@ -292,3 +292,9 @@
   a proper icon. iOS doesn't use SVG favicons for this — it needs a 180x180 PNG.
 - Fix: Generated apple-touch-icon.png (LZ initials on accent blue, matching the
   SVG favicon design) and linked it in the head.
+
+2026-03-19 — Review #46: Teaching & Service entries not in reverse chronological order
+- Listed as: TA (2021–2023), Peer Reviewer (2023–Present), Control Team Lead
+  (2017–2019) — middle, newest, oldest. Employers expect most recent first.
+- Fix: Reordered to reverse chronological: Peer Reviewer (2023–Present),
+  TA (2021–2023), Control Team Lead (2017–2019).
