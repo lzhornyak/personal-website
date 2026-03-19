@@ -436,3 +436,9 @@
   the page uses sentence case. Small inconsistencies that signal lack of proofreading.
 - Fix: Added trailing periods, normalized to sentence case, and added "Project:"
   prefix to clarify the relationship between the award and the work.
+
+2026-03-19 — Review #66: Peer Reviewer entry is the only one without a description
+- Every other experience item has descriptive text except Peer Reviewer — just a
+  title and journal list. Looks unfinished compared to the rest of the section.
+- Fix: Added brief description of reviewing scope (nonlinear dynamics, robotic
+  systems, chaos theory). Owner should add specifics if available.
