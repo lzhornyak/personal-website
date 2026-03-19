@@ -471,3 +471,11 @@
   verify the program or learn about Engineering Science.
 - Fix: Linked to the UofT Engineering Science program page and added the program
   name for specificity.
+
+2026-03-19 — Review #71: GRA description overlaps with Dynamical Systems research card
+- Both describe transformers + bifurcation diagrams in slightly different words.
+  An employer reading top-to-bottom sees the same contribution twice. The GRA
+  entry should focus on day-to-day activities, not restate the research outcome.
+- Fix: Rewrote GRA description to focus on process (experiments, pipelines,
+  cross-disciplinary collaboration) rather than restating the research result
+  already covered in the card above.
