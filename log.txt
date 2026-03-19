@@ -23,3 +23,8 @@
 - Fix: Added volume/issue/page numbers to all three publications.
   (Chaos Vol. 34 No. 5; CVPR pp. 21975–21984; Robotica Vol. 38 No. 3 pp. 460–475.)
   Owner should double-check these details match the published versions.
+
+2026-03-19 — Review #5: Unprofessional CV filename
+- CV linked as "RenderCV_EngineeringResumes_Theme(1).pdf" — looks like an unrenamed
+  template download. Signals the site wasn't proofread before launch.
+- Fix: Renamed to "Zhornyak_CV.pdf" and updated the link in index.html.
