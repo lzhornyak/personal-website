@@ -99,3 +99,10 @@
   to the same DOI URL. Clicking "PDF" didn't give a PDF — it gave the same publisher
   landing page. Misleading to an employer expecting a direct download.
 - Fix: Removed the fake PDF link. Only DOI remains (no open-access PDF available).
+
+2026-03-19 — Review #18: Teaching assistant entry has no description
+- The TA role for CIS 680 spans two years but is the only experience entry on the
+  page with no description of responsibilities. For academic hiring, teaching is a
+  critical evaluation criterion — a bare title looks like padding.
+- Fix: Added brief description noting graduate-level course and core TA duties.
+  Owner should expand with specifics (class size, any lectures given, etc.).
