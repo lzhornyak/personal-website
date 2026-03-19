@@ -457,3 +457,10 @@
   research area (Dynamical Systems) doesn't.
 - Fix: Added "(Chaos 2024)" to the end of the Dynamical Systems description.
   All three cards now follow the same structure.
+
+2026-03-19 — Review #69: Advisor name unlinked in Experience and Education
+- "Advised by M. Ani Hsieh" appears in three places but is only linked in the hero.
+  In the GRA experience entry and PhD education entry, it's plain text. An employer
+  reading those sections who wants to learn about the advisor has to scroll back up.
+- Fix: Linked the advisor name to her GRASP faculty page in both the Experience
+  and Education sections, matching the hero.
