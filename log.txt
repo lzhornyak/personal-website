@@ -227,3 +227,10 @@
   (trailing slash vs not, index.html vs bare path), diluting ranking authority.
   When an employer Googles the candidate's name, the page competes with itself.
 - Fix: Added canonical URL pointing to the definitive page URL.
+
+2026-03-19 — Review #37: No structured data for search engines
+- No JSON-LD markup, so Google has no machine-readable signal to build a rich result
+  or knowledge panel when employers search the candidate's name. The page relies
+  entirely on unstructured HTML for search engine understanding.
+- Fix: Added a Person schema with name, title, affiliation, alumni, image, and
+  sameAs links to Google Scholar and GitHub.
