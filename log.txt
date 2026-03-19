@@ -485,3 +485,11 @@
   Reads as copy-paste redundancy.
 - Fix: Removed "for the Programmable Solutions Group" from the description since
   it's already in the org line directly above.
+
+2026-03-19 — Review #73: Meta description too long for Google search snippets
+- At 178 characters, Google would truncate the meta description around character
+  155, cutting off "robotics, and machine learning" — the most important keywords
+  for employer discoverability.
+- Fix: Trimmed to 126 characters by removing redundant "Academic website of" and
+  "Computer and Information Science". Research keywords now guaranteed to appear
+  in full in search results.
