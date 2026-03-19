@@ -152,3 +152,10 @@
   Education has no grouping layer, so degrees should be h3.
 - Fix: Changed degree headings to h3 and updated CSS to style h3 inside .exp-details
   the same as h4.
+
+2026-03-19 — Review #26: Publications section ends abruptly with no "see more"
+- Only 3 papers listed with no indication if the list is complete. An academic employer
+  wonders if there are workshop papers, preprints, or other work not shown. The Google
+  Scholar link exists in the hero but no one scrolls back up to find it mid-section.
+- Fix: Added "For a complete list of publications, see Google Scholar" link at the
+  bottom of the publications section.

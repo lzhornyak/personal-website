@@ -359,6 +359,12 @@ main {
   color: #fff;
 }
 
+.pub-footer {
+  margin-top: 24px;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
 /* ===== Experience ===== */
 .experience-group {
   margin-bottom: 36px;
