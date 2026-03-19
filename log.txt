@@ -305,3 +305,11 @@
   day-to-day work and skills, not repeat the publication list.
 - Fix: Rewrote to describe actual research activities: designing neural network
   pipelines, running experiments, cross-disciplinary collaboration.
+
+2026-03-19 — Review #48: "PhD Student" should be "PhD Candidate"
+- In academia, "Student" and "Candidate" are distinct titles. "Candidate" indicates
+  having passed qualifying exams — expected for a 6th-year PhD with multiple
+  publications. Using "Student" undersells progress and signals an early-stage
+  researcher to hiring committees who read this distinction carefully.
+- Fix: Changed all 4 occurrences (title, OG tag, JSON-LD, subtitle) to
+  "PhD Candidate". Owner should revert if quals haven't been passed.
