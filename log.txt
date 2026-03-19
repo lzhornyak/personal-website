@@ -375,3 +375,10 @@
   the font CSS download size.
 - Fix: Removed weight 400 from the Source Serif 4 font request in both index.html
   and 404.html. Only weight 600 is now loaded.
+
+2026-03-19 — Review #58: Research card hover shadow invisible in dark mode
+- The hover box-shadow uses hardcoded rgba(67, 97, 238, 0.1) — the light-mode
+  accent at 10% opacity. Against the dark background (#121220), this is effectively
+  invisible. Cards lift on hover but show no depth, making the effect look broken.
+- Fix: Added dark mode override with the dark-mode accent color at higher opacity
+  (rgba(107, 138, 255, 0.2)) so the shadow is visible against dark backgrounds.
