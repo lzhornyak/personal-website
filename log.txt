@@ -189,3 +189,9 @@
   Feels padded to an employer scrolling through.
 - Fix: Simplified contact section to a single sentence with the email link. Moved
   location to footer and added GRASP Lab link there. Removed redundant grid.
+
+2026-03-19 — Review #31: PhD entry missing dissertation title
+- The B.A.Sc. lists a thesis title but the PhD entry doesn't, creating an asymmetry.
+  Academic employers expect a dissertation title (or working title) for a late-stage PhD.
+- Fix: Added a working dissertation title inferred from the published research.
+  Owner should update with the actual title.
