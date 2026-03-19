@@ -341,3 +341,10 @@
   professional impression.
 - Fix: Added a branded 404.html using the site's stylesheet, fonts, and favicon,
   with a clear message and link back to the homepage.
+
+2026-03-19 — Review #53: No prefers-reduced-motion support
+- The site uses smooth scrolling, hover transitions, and card transforms. Users
+  with vestibular disorders or motion sensitivity set their OS to reduce motion,
+  but the site ignores this preference — a WCAG 2.1 AAA failure.
+- Fix: Added prefers-reduced-motion: reduce media query that disables smooth
+  scrolling, zeroes all transition/animation durations, and removes hover transforms.

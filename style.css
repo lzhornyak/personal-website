@@ -507,6 +507,22 @@ footer {
   }
 }
 
+/* ===== Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+  }
+
+  .research-card:hover {
+    transform: none;
+  }
+}
+
 /* ===== Dark Mode ===== */
 @media (prefers-color-scheme: dark) {
   :root {
