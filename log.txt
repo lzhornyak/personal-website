@@ -361,3 +361,10 @@
   SVG elements or path data as content, adding noise for visually impaired users.
   The adjacent h3 headings already convey the meaning.
 - Fix: Added aria-hidden="true" to all three research card SVGs.
+
+2026-03-19 — Review #56: log.txt is publicly accessible on the deployed site
+- The development log (55 review entries with internal process notes) is served at
+  the public URL. An employer browsing to /log.txt would see the entire iteration
+  history, including AI-assisted development notes.
+- Fix: Added _config.yml with exclude directive so Jekyll doesn't serve log.txt
+  (or CLAUDE.md) on the deployed site. Files remain in the repo but won't be public.
