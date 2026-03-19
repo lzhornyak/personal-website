@@ -271,3 +271,12 @@
   unpredictable. A hiring manager on Windows sees a different page than on Mac.
 - Fix: Replaced with inline SVGs (gear/sun for dynamical systems, robot face for
   robotics, eye for vision) styled in the accent color. Renders identically everywhere.
+
+2026-03-19 — Review #43: Research descriptions use aspirational tense for published work
+- Cards said "Using...", "Optimizing...", "Exposing..." as if the work is ongoing,
+  despite all three being published results. Creates an impression of tentativeness
+  that conflicts with the strong publication record. Also, "(working title)" on the
+  dissertation signals incompleteness at a late PhD stage.
+- Fix: Switched research cards to past tense ("Developed", "Optimized", "Exposed")
+  to project confidence in accomplished work. Removed "(working title)" from
+  dissertation. Owner should revert if the title isn't finalized.
