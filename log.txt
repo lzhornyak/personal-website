@@ -510,3 +510,10 @@
 - Fix: Added a subtle underline in the border color (light grey) with
   text-underline-offset for breathing room. On hover, underline changes to
   accent color. Signals clickability without disrupting the heading style.
+
+2026-03-19 — Review #76: No expected PhD completion date
+- Both academic and industry employers need to know availability. The PhD entry
+  says "2020 – Present" with no end date. A postdoc hiring for Fall 2026 or an
+  industry recruiter planning headcount can't assess timing.
+- Fix: Changed to "2020 – 2026 (expected)". Owner should update with actual
+  expected graduation date/semester if different.
