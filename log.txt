@@ -35,3 +35,11 @@
 - Footer is just "© 2026 Lyra Zhornyak" — looks unfinished compared to peer sites.
 - Fix: Added meta description with name/affiliation/research areas. Enriched footer
   with university and email contact.
+
+2026-03-19 — Review #7: Research descriptions lack quantitative results
+- Research cards described methods but cited no numbers from the actual papers.
+- Employers and academics want to see measurable impact at a glance.
+- Fix: Added key metrics sourced from the published papers:
+  - Dynamical Systems: "as few as 30 noisy trajectories" (from Chaos paper)
+  - Computer Vision: "2x F1 improvement, 33x duplicate reduction, 6x faster" (from CVPR paper)
+  - Robotics: "conform to biological observations of feline species" (from Robotica paper)
