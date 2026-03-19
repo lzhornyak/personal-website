@@ -167,3 +167,11 @@
   experience entries: Python, PyTorch, MATLAB, C, Jupyter, Linux, Git.
 - Fix: Added a compact "Tools" line at the bottom of the Research section.
   Owner should update this list as their toolset evolves.
+
+2026-03-19 — Review #28: No print stylesheet — page prints poorly
+- Academic hiring committees print candidate pages for meetings. The fixed nav
+  overlays content on every printed page, research card shadows are meaningless,
+  and link URLs are invisible on paper.
+- Fix: Added @media print rules: hide nav and skip-link, remove card shadows,
+  prevent page breaks inside entries, and append URLs after links so they're
+  visible on paper. Buttons suppress URL display to avoid clutter.

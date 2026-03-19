@@ -537,3 +537,45 @@ footer {
     font-size: 15px;
   }
 }
+
+/* ===== Print ===== */
+@media print {
+  nav, .skip-link {
+    display: none;
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  .hero {
+    padding-top: 0;
+  }
+
+  .research-card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+
+  .pub, .exp-item {
+    break-inside: avoid;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75rem;
+    color: #555;
+    word-break: break-all;
+  }
+
+  .btn::after, .btn-outline::after,
+  .pub-links a::after, .nav-links a::after {
+    content: none;
+  }
+
+  .hero-links .btn {
+    border: 1px solid #ccc;
+    background: none;
+  }
+}
