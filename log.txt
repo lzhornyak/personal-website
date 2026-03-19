@@ -532,3 +532,12 @@
 - Fix: Added a 3px left border accent in the accent color with padding, creating
   a visual marker that matches the h2 underline accent pattern. Adds rhythm to the
   Experience section without being heavy.
+
+2026-03-19 — Review #79: Publication year badges are visually flat
+- Year indicators (2024, 2023, 2020) are just accent-colored text with no visual
+  container. Compared to research cards (bordered, padded) and experience categories
+  (left-border accent), the publications section lacks visual structure. The years
+  don't create the timeline scanning effect they should.
+- Fix: Styled pub-year as small chip badges with accent-light background, padding,
+  and border-radius. Creates a stronger visual anchor for each publication entry
+  and better timeline scanning.

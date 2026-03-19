@@ -326,10 +326,14 @@ main {
 .pub-year {
   flex-shrink: 0;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--color-accent);
-  padding-top: 3px;
+  background: var(--color-accent-light);
+  padding: 4px 10px;
+  border-radius: 6px;
   min-width: 48px;
+  text-align: center;
+  margin-top: 2px;
 }
 
 .pub-details h3 {
