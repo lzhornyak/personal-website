@@ -953,3 +953,12 @@
 - Fix: Converted to JPEG at quality 85 — 35KB, a 63% reduction. No visible
   quality loss for a gradient-and-text image. Updated og:image reference and
   removed the old PNG.
+
+2026-03-20 — Review #131: Hero Email button shows no address when printed
+- The hero "Email" button prints as just the word "Email" — the mailto: URL is
+  suppressed by the print stylesheet. On a multi-page printout, the email address
+  might only appear on the last page (contact section). An employer looking at
+  page 1 has no way to contact the candidate.
+- Fix: Added a .hero-email class and a print-only ::after rule that appends
+  "(zhornyak@seas.upenn.edu)" after the button text when printed. Invisible
+  on screen, visible on paper.

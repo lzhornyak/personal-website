@@ -681,6 +681,11 @@ footer {
     background: none;
   }
 
+  .hero-email::after {
+    content: " (zhornyak@seas.upenn.edu)";
+    font-weight: 400;
+  }
+
   footer::after {
     content: "lzhornyak.github.io";
     display: block;
