@@ -761,3 +761,11 @@
   scanning pattern and makes the awards look structurally different.
 - Fix: Separated the institution into a proper .exp-org line for each award,
   matching the format used by every other experience entry.
+
+2026-03-20 — Review #107: Research card cross-links show ugly anchors when printed
+- The venue cross-links added in Review #92 (e.g., "(Chaos 2024)" → #pub-chaos)
+  were not covered by the print URL-suppression rule. When printed, they'd show
+  as "(Chaos 2024 (#pub-chaos))" — an internal anchor URL cluttering the output.
+  Also added .contact-btn to suppression for completeness.
+- Fix: Added .research-card a::after and .contact-btn::after to the print
+  content:none rule.
