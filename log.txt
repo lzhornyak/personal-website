@@ -696,3 +696,12 @@
 - Fix: Restructured to match the CV's three categories (Languages, Frameworks,
   Tools) with the same items in the same groupings. Restored Jupyter and Linux.
   Merged C and C++ into "C/C++" matching the CV.
+
+2026-03-20 — Review #99: Website says "Machine Learning" but CV says "Computer Vision"
+- The subtitle, title, and OG title listed "Machine Learning" as the third research
+  area. But the CV says "computer vision", the research card is titled "Computer
+  Vision", and the candidate has a CVPR publication. An employer comparing the
+  two documents would notice the mismatch.
+- Fix: Changed "Machine Learning" to "Computer Vision" in the subtitle, page title,
+  and OG title to match the CV. ML is still represented through the methods described
+  in the bio and research cards (transformers, neural network pipelines).
