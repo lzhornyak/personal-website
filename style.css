@@ -419,6 +419,10 @@ main {
   margin-bottom: 36px;
 }
 
+.experience-group:last-child {
+  margin-bottom: 0;
+}
+
 .exp-category {
   font-size: 0.85rem;
   font-weight: 600;
@@ -435,6 +439,10 @@ main {
   gap: 24px;
   margin-bottom: 20px;
   align-items: flex-start;
+}
+
+.exp-item:last-child {
+  margin-bottom: 0;
 }
 
 .exp-date {

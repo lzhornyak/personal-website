@@ -937,3 +937,11 @@
   a flat semi-transparent bar instead of the polished blur. Safari is the default
   browser for Mac-heavy academic departments.
 - Fix: Added -webkit-backdrop-filter: blur(12px) before the unprefixed property.
+
+2026-03-20 — Review #129: Bottom whitespace inconsistent across sections
+- The last .experience-group has 36px bottom margin that adds to the section's
+  48px padding = 84px total. Education and Awards end with .exp-item (20px margin)
+  for 68px total. Experience has visibly more bottom whitespace than neighbors.
+- Fix: Added :last-child overrides to zero out margin-bottom on the last
+  .experience-group and last .exp-item. All sections now have consistent
+  bottom spacing determined only by the section padding.
