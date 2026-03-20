@@ -861,3 +861,9 @@
 - Fix: Changed to "instance segmentation methods" — positions the work as
   developing methods, not just evaluating metrics. Matches the action-oriented
   framing of the other two highlights.
+
+2026-03-20 — Review #119: Last-updated date is vague — month only, no day
+- "Last updated March 2026" could mean any day in March. After extensive updates
+  on March 20, a specific date better signals active maintenance. An employer
+  seeing "March 20, 2026" knows the site is current; "March 2026" is ambiguous.
+- Fix: Changed to "Last updated March 20, 2026".
