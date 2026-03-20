@@ -962,3 +962,10 @@
 - Fix: Added a .hero-email class and a print-only ::after rule that appends
   "(zhornyak@seas.upenn.edu)" after the button text when printed. Invisible
   on screen, visible on paper.
+
+2026-03-20 — Review #132: Thesis PDF link styled differently from publication PDFs
+- The B.A.Sc. thesis "[PDF]" was a plain text link with brackets, while publication
+  PDF links use styled pills (accent-light background, padding, border-radius).
+  Same action (download PDF), different visual treatment — inconsistent.
+- Fix: Replaced the inline [PDF] text link with a .pub-links styled pill matching
+  the publication link style. Visual consistency across all downloadable PDFs.
