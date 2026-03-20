@@ -818,3 +818,10 @@
   before the stylesheet gives the browser a head start on DNS/TLS for Google's font
   servers while style.css downloads in parallel.
 - Fix: Moved both preconnect hints above style.css in the <head>.
+
+2026-03-20 — Review #114: No website URL visible when page is printed
+- The print stylesheet hides the nav and suppresses URLs on all links. An employer
+  who prints the page has no way to find the website URL later — can't visit it
+  online, share it with a colleague, or verify information.
+- Fix: Added a footer::after pseudo-element in the print stylesheet that displays
+  "lzhornyak.github.io" at the bottom of the printed page.

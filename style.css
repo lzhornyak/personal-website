@@ -653,4 +653,12 @@ footer {
     border: 1px solid #ccc;
     background: none;
   }
+
+  footer::after {
+    content: "lzhornyak.github.io";
+    display: block;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #555;
+  }
 }
