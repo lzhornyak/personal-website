@@ -720,3 +720,12 @@
 - Fix: Added knowsAbout array (Dynamical Systems, Robotics, Computer Vision,
   Machine Learning, Bifurcation Analysis) and email field. Strengthens the
   candidate's presence in Google's knowledge graph.
+
+2026-03-20 — Review #102: "CV" in page title is ambiguous — reads as Curriculum Vitae
+- The title "Dynamical Systems, Robotics & CV | UPenn PhD" uses "CV" for Computer
+  Vision, but in academia "CV" universally means Curriculum Vitae. The same page
+  has a "CV (PDF)" button reinforcing that reading. An employer seeing the title
+  in a browser tab or Google result would misread it.
+- Fix: Changed "CV" to "Vision" in the page title and OG title. Unambiguous,
+  still concise (62 chars), and the full term "Computer Vision" appears in the
+  subtitle and meta description.
