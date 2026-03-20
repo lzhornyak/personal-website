@@ -875,3 +875,10 @@
 - Fix: Lightened these specific elements to #8aa4ff in dark mode (6.46:1 contrast).
   Kept the base --color-accent unchanged for links and buttons which have adequate
   contrast against the main background.
+
+2026-03-20 — Review #121: "large-scale experiments" may overstate the work
+- The GRA description says "large-scale experiments" but the Chaos paper uses as
+  few as 30 trajectories. An academic reviewer who reads the paper and then sees
+  "large-scale" would question the claim. Overstating scale erodes trust.
+- Fix: Changed to "computational experiments" — accurate, doesn't overstate,
+  still conveys the work is experimental (not purely theoretical).
