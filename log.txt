@@ -898,3 +898,11 @@
   Removing it reduces nav to 6 links, easing mobile crowding, and every remaining
   link now maps to a visible section heading.
 - Fix: Removed "About" from nav links. The nav-name link still scrolls to the top.
+
+2026-03-20 — Review #124: Apple-touch-icon shows blank boxes instead of "LZ"
+- The apple-touch-icon was generated with SVG <text> but the container has no
+  fontconfig/fonts installed. The result was a blue square with empty boxes where
+  "LZ" should be. An employer saving the site to their iPhone home screen would
+  see a meaningless blue icon.
+- Fix: Regenerated using SVG <rect> and <polygon> paths to draw the letters
+  geometrically — no font dependency. "LZ" now renders correctly on all devices.
