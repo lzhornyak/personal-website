@@ -1005,3 +1005,11 @@
   copy-paste the name would see nothing selected.
 - Fix: Added h1::selection override that sets -webkit-text-fill-color to white
   and background to the accent color. Selected text is now clearly visible.
+
+2026-03-20 — Review #137: No way to scroll to top on mobile — name link hidden
+- The nav-name "Lyra Zhornyak" (which links to #about/top) was hidden at 768px.
+  On mobile, an employer at the bottom of the page had no nav link to return to
+  the top — only section links. After removing "About" in Review #123, there are
+  only 6 nav links which fit alongside the name on tablet (768px).
+- Fix: Show the nav-name at 768px (slightly smaller at 0.95rem). Only hide it at
+  480px where space is truly tight. Tablet users now have a home/top link.

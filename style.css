@@ -548,11 +548,7 @@ footer {
   }
 
   .nav-name {
-    display: none;
-  }
-
-  .nav-inner {
-    justify-content: center;
+    font-size: 0.95rem;
   }
 
   .nav-links {
@@ -575,13 +571,19 @@ footer {
     padding: 10px 0;
   }
 
+  .nav-name {
+    display: none;
+  }
+
   .nav-inner {
+    justify-content: center;
     height: auto;
   }
 
   .nav-links {
     gap: 12px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   body {
