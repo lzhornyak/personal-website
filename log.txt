@@ -745,3 +745,11 @@
   an opportunity.
 - Fix: Changed to "Spring 2027 (expected)". Owner should adjust if the actual
   target semester is different.
+
+2026-03-20 — Review #105: TA org line breaks the Organization · Context pattern
+- Every experience entry follows: Organization · Context (e.g., "Intel,
+  Programmable Solutions Group · San Jose, CA"). But the TA entry reversed this:
+  "CIS 680: Advanced Topics in Machine Perception · University of Pennsylvania"
+  — course first, then organization. Breaks the visual scanning pattern.
+- Fix: Reordered to "University of Pennsylvania · CIS 680: Advanced Topics in
+  Machine Perception" matching the convention used by every other entry.
