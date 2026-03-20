@@ -882,3 +882,11 @@
   "large-scale" would question the claim. Overstating scale erodes trust.
 - Fix: Changed to "computational experiments" — accurate, doesn't overstate,
   still conveys the work is experimental (not purely theoretical).
+
+2026-03-20 — Review #122: Nav overflows horizontally at 600-768px with 7 links
+- With 7 nav links + "Lyra Zhornyak" name, the nav content totals ~590px. On
+  screens between 600-768px, this exceeds available width and causes a horizontal
+  scrollbar. The name was only hidden at 480px.
+- Fix: Hide the nav name at 768px (moved from 480px breakpoint). The name is
+  redundant with the h1 heading. Also moved justify-content:center and flex-wrap
+  to the appropriate breakpoints for consistency.

@@ -533,6 +533,14 @@ footer {
     gap: 4px;
   }
 
+  .nav-name {
+    display: none;
+  }
+
+  .nav-inner {
+    justify-content: center;
+  }
+
   .nav-links {
     gap: 16px;
   }
@@ -553,19 +561,13 @@ footer {
     padding: 10px 0;
   }
 
-  .nav-name {
-    display: none;
-  }
-
   .nav-inner {
-    justify-content: center;
     height: auto;
   }
 
   .nav-links {
     gap: 12px;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   body {
