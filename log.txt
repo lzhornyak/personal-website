@@ -712,3 +712,11 @@
   learning." Link previews and search snippets showed the old term.
 - Fix: Updated both meta descriptions and regenerated the OG image with
   "Computer Vision" replacing "Machine Learning." All references now consistent.
+
+2026-03-20 — Review #101: JSON-LD missing research areas and email
+- The Person structured data had name, title, org, and sameAs links but no
+  knowsAbout (research areas) or email. Search engines couldn't machine-read
+  the connection between the candidate's name and their expertise.
+- Fix: Added knowsAbout array (Dynamical Systems, Robotics, Computer Vision,
+  Machine Learning, Bifurcation Analysis) and email field. Strengthens the
+  candidate's presence in Google's knowledge graph.
