@@ -922,3 +922,11 @@
   Scholar (https://scholar.google.com/citations?user=IO8BmHUAAAAJ)" would appear
   — a 70-char URL cluttering the clean publication list.
 - Fix: Added .pub-footer a::after to the print content:none rule.
+
+2026-03-20 — Review #127: PhD date column is 3x wider than other entries
+- "2020 – Spring 2027 (expected)" at ~200px vs "2019" at ~35px. The date column
+  has flex-shrink:0 so the PhD entry's content area is visually narrower than
+  every other entry, breaking the layout rhythm.
+- Fix: Shortened date to "2020 – 2027" and moved the detail to the heading:
+  "Ph.D. in Computer and Information Science (expected Spring 2027)". Keeps all
+  information visible while maintaining consistent date column widths.
