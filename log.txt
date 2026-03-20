@@ -1046,3 +1046,13 @@
   h2 headings — "Publications", "Education", etc. could end up alone at the
   bottom of a printed page with their content on the next page.
 - Fix: Added .section h2 to the break-after: avoid rule alongside .exp-category.
+
+2026-03-20 — Review #142: Bio refocused + dark mode pub title underlines invisible
+- User requested removing computer vision from the bio intro, refocusing on
+  dynamical systems and physics-guided ML research.
+- Also: publication title underlines (text-decoration-color: var(--color-border))
+  had only 1.5:1 contrast in dark mode (#3a3a52 on #1a1a2e). The clickability
+  signal added in Review #75 was invisible to dark mode mobile users.
+- Fix: Rewrote subtitle to "Dynamical Systems, Robotics & Physics-Guided ML"
+  and bio to focus on two core areas. Added dark mode override for pub title
+  underline color using --color-text-secondary for better visibility.

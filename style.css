@@ -636,6 +636,10 @@ footer {
   .research-card:hover {
     box-shadow: 0 8px 24px rgba(107, 138, 255, 0.2);
   }
+
+  .pub-details h3 a {
+    text-decoration-color: var(--color-text-secondary);
+  }
 }
 
 /* ===== Print ===== */
