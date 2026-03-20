@@ -1056,3 +1056,12 @@
 - Fix: Rewrote subtitle to "Dynamical Systems, Robotics & Physics-Guided ML"
   and bio to focus on two core areas. Added dark mode override for pub title
   underline color using --color-text-secondary for better visibility.
+
+2026-03-20 — Review #143: Title, meta, and OG still say "Vision" after bio refocus
+- The subtitle was changed to "Physics-Guided ML" in Review #142, but the page
+  title, OG title, meta description, and OG description all still said "Vision"
+  or "computer vision." OG image also showed the old text. An employer sharing
+  the link would see "computer vision" in the preview while the page says
+  "physics-guided ML."
+- Fix: Updated all four meta tags and regenerated the OG image to say
+  "Physics-Guided ML" consistently.
