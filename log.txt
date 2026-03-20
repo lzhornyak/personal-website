@@ -825,3 +825,13 @@
   online, share it with a colleague, or verify information.
 - Fix: Added a footer::after pseudo-element in the print stylesheet that displays
   "lzhornyak.github.io" at the bottom of the printed page.
+
+2026-03-20 — Review #115: Awards buried at bottom of Experience section
+- Competitive fellowships (Mitacs Globalink, NSERC USRA) were the last subsection
+  inside Experience — buried after Research, Industry, and Teaching. These represent
+  external validation of research quality and deserve their own prominence, not
+  relegation to the bottom of the longest section.
+- Fix: Promoted Awards to a standalone top-level section between Education and
+  Experience. Added nav link. Changed h4 to h3 for proper heading hierarchy as a
+  standalone section. Awards are now immediately visible to hiring committees
+  scanning the page structure.
