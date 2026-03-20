@@ -543,6 +543,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+  :root {
+    --nav-height: 100px;
+  }
+
   header {
     height: auto;
     min-height: var(--nav-height);
