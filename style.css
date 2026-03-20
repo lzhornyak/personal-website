@@ -4,9 +4,9 @@
   --color-surface: #ffffff;
   --color-text: #1a1a2e;
   --color-text-secondary: #555;
-  --color-accent: #4361ee;
-  --color-accent-light: #e8ecff;
-  --color-accent-warm: #f72585;
+  --color-accent: #480f28;
+  --color-accent-light: #f5e8ee;
+  --color-accent-warm: #6b1a3a;
   --color-border: #e0e0e0;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-serif: 'Source Serif 4', Georgia, serif;
@@ -216,7 +216,7 @@ main {
 }
 
 .btn:not(.btn-outline):hover {
-  background: var(--color-accent-hover, #3451d1);
+  background: var(--color-accent-hover, #3a0b20);
   color: #fff;
 }
 
@@ -285,7 +285,7 @@ main {
 
 .research-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(67, 97, 238, 0.1);
+  box-shadow: 0 8px 24px rgba(72, 15, 40, 0.12);
 }
 
 .research-icon {
@@ -574,15 +574,15 @@ footer {
     --color-surface: #1a1a2e;
     --color-text: #e0e0e0;
     --color-text-secondary: #a0a0b0;
-    --color-accent: #6b8aff;
-    --color-accent-light: #1e2244;
-    --color-accent-warm: #ff4da6;
+    --color-accent: #c4647e;
+    --color-accent-light: #2a1520;
+    --color-accent-warm: #d4889a;
     --color-border: #3a3a52;
-    --color-accent-hover: #8aa4ff;
+    --color-accent-hover: #d4889a;
   }
 
   .pub-year, .pub-links a {
-    color: #8aa4ff;
+    color: #d4889a;
   }
 
   header {
@@ -594,7 +594,7 @@ footer {
   }
 
   .research-card:hover {
-    box-shadow: 0 8px 24px rgba(107, 138, 255, 0.2);
+    box-shadow: 0 8px 24px rgba(196, 100, 126, 0.2);
   }
 
   .pub-details h3 a {
