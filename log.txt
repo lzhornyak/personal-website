@@ -753,3 +753,11 @@
   — course first, then organization. Breaks the visual scanning pattern.
 - Fix: Reordered to "University of Pennsylvania · CIS 680: Advanced Topics in
   Machine Perception" matching the convention used by every other entry.
+
+2026-03-20 — Review #106: Award entries lack exp-org line — break entry pattern
+- Every experience entry follows: h4 title → p.exp-org (organization) → p
+  (description). But the two award entries lumped everything (context, project,
+  location) into a single paragraph with no .exp-org line. Breaks the visual
+  scanning pattern and makes the awards look structurally different.
+- Fix: Separated the institution into a proper .exp-org line for each award,
+  matching the format used by every other experience entry.
