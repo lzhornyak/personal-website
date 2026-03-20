@@ -803,3 +803,10 @@
 - Fix: Lightened dark mode --color-border from #2a2a3e to #3a3a52. All borders
   are now visible without being harsh. Affects buttons, cards, section dividers,
   and the hero photo border consistently.
+
+2026-03-20 — Review #112: Photo alt text doesn't describe the image type
+- alt="Lyra Zhornyak" tells screen readers WHO but not WHAT. The h1 heading
+  also says "Lyra Zhornyak" — a screen reader user hears the same text twice
+  with no way to distinguish the heading from the photo.
+- Fix: Changed to alt="Headshot of Lyra Zhornyak" — describes both the person
+  and the image type, differentiating it from the heading.
