@@ -890,3 +890,11 @@
 - Fix: Hide the nav name at 768px (moved from 480px breakpoint). The name is
   redundant with the h1 heading. Also moved justify-content:center and flex-wrap
   to the appropriate breakpoints for consistency.
+
+2026-03-20 — Review #123: "About" nav link is redundant and has no matching heading
+- "About" links to #about (the hero section) but there's no visible "About" h2 on
+  the page — unlike every other nav link which matches a visible section heading.
+  It's also redundant with the nav-name "Lyra Zhornyak" link (both go to #about).
+  Removing it reduces nav to 6 links, easing mobile crowding, and every remaining
+  link now maps to a visible section heading.
+- Fix: Removed "About" from nav links. The nav-name link still scrolls to the top.
