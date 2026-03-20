@@ -705,3 +705,10 @@
 - Fix: Changed "Machine Learning" to "Computer Vision" in the subtitle, page title,
   and OG title to match the CV. ML is still represented through the methods described
   in the bio and research cards (transformers, neural network pipelines).
+
+2026-03-20 — Review #100: Meta descriptions and OG image still say "machine learning"
+- After changing the subtitle and titles to "Computer Vision" (Review #99), the
+  meta description, OG description, and OG banner image still said "machine
+  learning." Link previews and search snippets showed the old term.
+- Fix: Updated both meta descriptions and regenerated the OG image with
+  "Computer Vision" replacing "Machine Learning." All references now consistent.
