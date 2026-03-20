@@ -1065,3 +1065,12 @@
   "physics-guided ML."
 - Fix: Updated all four meta tags and regenerated the OG image to say
   "Physics-Guided ML" consistently.
+
+2026-03-20 — Review #144: JSON-LD knowsAbout still reflects old research focus
+- knowsAbout listed "Computer Vision" prominently and "Machine Learning" generically
+  but didn't mention "Physics-Guided Machine Learning" or "Variational Methods" —
+  the current research direction. Search engines use this for knowledge graph
+  associations.
+- Fix: Reordered and updated to lead with current focus: Dynamical Systems,
+  Physics-Guided Machine Learning, Robotics, Variational Methods, Bifurcation
+  Analysis, Computer Vision. CV retained at the end for the CVPR publication.
