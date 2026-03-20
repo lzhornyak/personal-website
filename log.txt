@@ -737,3 +737,11 @@
   one cohesive skills block.
 - Fix: Reduced inter-row spacing to 10px, kept 28px only on the first row
   (via :first-of-type) for separation from the research cards.
+
+2026-03-20 — Review #104: Expected graduation has no season — 12-month ambiguity
+- "2027 (expected)" could mean January or December 2027. A hiring manager planning
+  headcount needs to know availability timing before investing in interview prep.
+  Without a season, they'd need to email just to ask — friction that could cost
+  an opportunity.
+- Fix: Changed to "Spring 2027 (expected)". Owner should adjust if the actual
+  target semester is different.
