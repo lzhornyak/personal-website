@@ -906,3 +906,12 @@
   see a meaningless blue icon.
 - Fix: Regenerated using SVG <rect> and <polygon> paths to draw the letters
   geometrically — no font dependency. "LZ" now renders correctly on all devices.
+
+2026-03-20 — Review #125: Computer Vision card has a wordy mid-sentence aside
+- "Showed that Average Precision (AP), the standard evaluation metric for instance
+  segmentation, fails to penalize..." — the 7-word aside interrupts the sentence
+  flow. The parenthetical "(AP)" already signals it's a standard term, and the
+  CVPR venue at the end signals quality. The explanation adds words without value.
+- Fix: Tightened to "Demonstrated that Average Precision (AP) fails to penalize
+  duplicate predictions in instance segmentation." Moves the domain to the end
+  where it reads naturally. "Demonstrated" is stronger than "Showed."
