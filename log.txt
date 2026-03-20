@@ -663,3 +663,12 @@
   (style="margin-top: 16px;"). Every other style uses CSS classes. Inline styles
   can't be overridden by media queries and break separation of concerns.
 - Fix: Replaced with a .contact-btn class in the stylesheet.
+
+2026-03-20 — Review #95: 404 page has broken homepage link and missing theme-color
+- "Back to homepage" used href="./" which is relative to the failed URL path. If
+  someone visited /foo/bar, "./" resolves to /foo/ — another 404. Should use "/" 
+  for an absolute path to the homepage.
+- Also missing dark mode theme-color meta tags, so mobile browser chrome doesn't
+  match in dark mode (unlike the main page which has both).
+- Fix: Changed href to "/". Added light/dark theme-color meta tags matching the
+  main page.
