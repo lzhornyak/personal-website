@@ -672,3 +672,9 @@
   match in dark mode (unlike the main page which has both).
 - Fix: Changed href to "/". Added light/dark theme-color meta tags matching the
   main page.
+
+2026-03-20 — Review #96: Sitemap lastmod date is stale
+- sitemap.xml still had lastmod 2026-03-19 despite dozens of changes on the 20th.
+  Search engines use this to decide re-crawl priority — stale date means cached
+  versions of the old page served longer than necessary.
+- Fix: Updated lastmod to 2026-03-20.
