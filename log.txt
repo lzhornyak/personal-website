@@ -648,3 +648,12 @@
 - Fix: Added anchor IDs to each publication entry and linked the venue references
   in the research cards to them. Clicking "(Chaos 2024)" now jumps straight to
   the full publication with its DOI and code links.
+
+2026-03-20 — Review #93: Subtitle blends into affiliation — same color and weight
+- The subtitle ("PhD Candidate · Dynamical Systems, Robotics & Machine Learning")
+  and affiliation line both use the same muted grey (color-text-secondary). They
+  visually blend together, but the subtitle is the primary identity statement —
+  it should stand out from the supporting affiliation line below.
+- Fix: Changed subtitle to use color-text (primary text color) and font-weight 500.
+  Creates clear visual hierarchy: h1 (gradient) → subtitle (medium, dark) →
+  affiliation (light grey) → bio paragraph.

@@ -169,7 +169,8 @@ main {
 
 .subtitle {
   font-size: 1.15rem;
-  color: var(--color-text-secondary);
+  color: var(--color-text);
+  font-weight: 500;
   margin-bottom: 4px;
 }
 
