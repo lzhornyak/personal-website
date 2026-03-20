@@ -997,3 +997,11 @@
 - Fix: Added !important to .hero-email::after content rule. When two !important
   rules compete, source order wins — .hero-email comes after .btn in the file,
   so it correctly shows the email address.
+
+2026-03-20 — Review #136: Selecting the h1 name shows invisible text
+- The h1 uses -webkit-text-fill-color: transparent for the gradient effect. When
+  selecting text (e.g., to copy the name), the text remains transparent against
+  the selection highlight — it looks like empty space. An employer trying to
+  copy-paste the name would see nothing selected.
+- Fix: Added h1::selection override that sets -webkit-text-fill-color to white
+  and background to the accent color. Selected text is now clearly visible.

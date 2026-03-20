@@ -168,6 +168,11 @@ main {
   background-clip: text;
 }
 
+.hero-text h1::selection {
+  -webkit-text-fill-color: #fff;
+  background: var(--color-accent);
+}
+
 .subtitle {
   font-size: 1.15rem;
   color: var(--color-text);
